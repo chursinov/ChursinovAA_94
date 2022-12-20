@@ -61,3 +61,5 @@ def find_prime_implicants(data, IMM):
 minterms = set(['0000', '0001', '0010', '0011', '0110', '0111', '1000', '1001', '1011', '1111'])
 
 print('PI(s):', find_prime_implicants(minterms, IMM))
+
+print("I added some minor fixes")
